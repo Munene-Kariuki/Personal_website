@@ -115,4 +115,29 @@ border-radius: 10px;
 /* About me */
 .about {
   color: white;
+  padding: 5%;
+  background-color: rgb(37, 39, 59);
+}
+.about_header{
+  text-align: center;
+}
+.about_header > hr {
+  color: red;
+}
+.about_body {
+  display: flex;
+  justify-content: space-between;
+}
+.about_body > .left_container {
+  align-items: center;
+  margin-top: 10%;
+  width: 100%;
+}
+.about_body > .right_container {
+  width: 100%;
+  margin-top: 5%;
+  /* margin-left: 15%; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
