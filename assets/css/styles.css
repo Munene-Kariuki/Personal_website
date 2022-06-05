@@ -39,16 +39,6 @@ nav > .thelinks > ul > li {
   color: white;
 }
 
-
-nav > .thelinks > ul > li .contact{
-padding: 10px;
-background-color: green;
-color: white;
-border-radius: 10px;
-}
-/* .icons {
-  margin-bottom: 50px;
-} */
 .icons > ul > li{
   display: inline-block;
   justify-content: space-between;
@@ -140,4 +130,10 @@ border-radius: 10px;
   align-items: center;
   display: flex;
   justify-content: space-around;
+}
+
+/* contact */
+.contact {
+  color: white;
+  margin: 5%;
 }
