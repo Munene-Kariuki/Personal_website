@@ -91,6 +91,11 @@ border-radius: 10px;
 .services_header > h5 {
   color: red;
 }
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
 .cards > .cardStyle {
   background-color: rgb(35, 37, 58);
   border-radius: 10px;
