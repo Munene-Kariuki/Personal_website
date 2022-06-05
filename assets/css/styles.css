@@ -17,6 +17,8 @@ body {
   border: 2px solid rgb(32, 34, 53);
   box-shadow: 5px rgb(32, 34, 53);
 }
+
+/* navbar */
 nav {
   background-color: rgb(31, 33, 54);
   display: flex;
@@ -48,6 +50,7 @@ a :hover {
   color: yellow;
 }
 
+/* home */
 .icons > ul > li{
   display: inline-block;
   justify-content: space-between;
