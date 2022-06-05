@@ -21,6 +21,7 @@ nav {
   background-color: rgb(31, 33, 54);
   display: flex;
   justify-content: space-around;
+  height: 70px;
 }
 
 nav > .logo, .thelinks {
@@ -60,15 +61,42 @@ border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 10%;
   margin-top: 20px;
+  background-color: rgb(37, 39, 59);
+  border: 1px solid rgb(37, 39, 59);;
   color: white;
+  font-size: medium;
+}
+.introduction > .description {
+  margin-left: 10%;
 }
 .image {
   width: 60%;
-  height: 308px;
+  height: 310px;
 }
 .image > img {
-  width: 50%;
+  width: 60%;
   height: 50vh;
+}
+
+/* services */
+.services {
+  margin-top: 50px;
+  color: white;
+  font-size: small;
+}
+.services_header {
+  text-align: center;
+}
+.services_header > h5 {
+  color: red;
+}
+.cards > .cardStyle {
+  background-color: rgb(35, 37, 58);
+  border-radius: 10px;
+}
+.cards > .cardStyle > i {
+  color: red;
+  margin-top: 10%;
+  margin-left: 10%;
 }
