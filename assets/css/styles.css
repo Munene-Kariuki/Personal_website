@@ -38,6 +38,15 @@ nav > .thelinks > ul > li {
   padding: 10px;
   color: white;
 }
+nav > .thelinks > ul > li > a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+}
+a :hover {
+  color: yellow;
+}
 
 .icons > ul > li{
   display: inline-block;
